@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <Container className={"pt-1 "}>
-        <Flex className="mt-25 pb-20">
+        <Flex className="pt-25">
           <div className="w-[60%]">
             <Image imgSrc={about} />
           </div>

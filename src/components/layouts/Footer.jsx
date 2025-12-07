@@ -37,9 +37,11 @@ const Footer = () => {
                   About
                 </p>
               </Link>
-              <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
-                Benifit
-              </p>
+              <Link to={"/benifit"}>
+                <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
+                  Benifit
+                </p>
+              </Link>
               <Link to={"/price"}>
                 <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
                   Pricing
@@ -56,27 +58,37 @@ const Footer = () => {
               <h3 className="font-openSan text-2xl font-semibold text-[#413F45] pb-12">
                 Products
               </h3>
-              <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
-                Task Management
-              </p>
-              <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
-                Company growth
-              </p>
-              <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
-                Time tracking
-              </p>
+              <Link to={"/task"}>
+                <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
+                  Task Management
+                </p>
+              </Link>
+              <Link to={"/growth"}>
+                <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
+                  Company growth
+                </p>
+              </Link>
+              <Link to={"/time"}>
+                <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
+                  Time tracking
+                </p>
+              </Link>
             </div>
 
             <div className="">
               <h3 className="font-openSan text-2xl font-semibold text-[#413F45] pb-12">
                 Support
               </h3>
-              <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
-                Customer service
-              </p>
-              <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
-                Accessibility
-              </p>
+              <Link to={"/review"}>
+                <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
+                  Customer service
+                </p>
+              </Link>
+              <Link to={"/accessibility"}>
+                <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
+                  Accessibility
+                </p>
+              </Link>
               <Link to={"/contact"}>
                 <p className="font-nuni text-xl font-semibold text-[#6C7D93] pb-7.5">
                   Contact us

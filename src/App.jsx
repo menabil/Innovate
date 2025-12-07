@@ -9,6 +9,12 @@ import Error from "./components/pages/Error";
 import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import { Routes, Route } from "react-router-dom";
+import Accessibility from "./components/pages/Accessibility";
+import Review from "./components/pages/Review";
+import TaskManagement from "./components/pages/TaskManagement";
+import Benifit from "./components/pages/Benifit";
+import Time from "./components/pages/Time";
+import Growth from "./components/pages/Growth";
 
 function App() {
   return (
@@ -22,6 +28,12 @@ function App() {
           <Route path="/price" element={<Price />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/accessibility" element={<Accessibility />} />
+          <Route path="/review" element={<Review />} />
+          <Route path="/task" element={<TaskManagement />} />
+          <Route path="/benifit" element={<Benifit />} />
+          <Route path="/time" element={<Time />} />
+          <Route path="/growth" element={<Growth />} />
         </Route>
         <Route path="*" element={<Error />} />
       </Routes>

@@ -7,7 +7,7 @@ const Blog = () => {
   return (
     <div className="pt-1">
       <Container>
-        <div className={"my-25"}>
+        <div className={"pt-25"}>
           <div>
             <Image imgSrc={bannerLogo} className={"w-25 mx-auto"} />
             <h1 className="text-[48px] font-openSan font-extrabold text-[#192239] text-center ">
@@ -18,26 +18,68 @@ const Blog = () => {
               businesses.
             </p>
           </div>
-          <div className="mt-[52px] mb-[118px]">
-            <div className="h-60 w-[370px]">
-              <div className="p-30 bg-[#202427] rounded-tl-[20px] rounded-tr-[20px]"></div>
-              <div className="px-7 py-4  bg-[#EFEFEF] rounded-bl-[20px] rounded-br-[20px] ">
-                <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[200px] ">
-                  How to Be Ahead of Stock Changes
-                </h3>
-                <p className="text-[18px] font-papi text-[#474747] pt-4">
-                  By John - 5 Comments
-                </p>
 
-                <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
-                  <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
-                  <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
-                    Read more
+          <Flex className={"justify-between"}>
+            <div className="mt-[52px]">
+              <div className="w-[370px]">
+                <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
+                <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
+                  <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[200px] ">
+                    How to Be Ahead of Stock Changes
+                  </h3>
+                  <p className="text-[18px] font-nuni text-[#474747] pt-4">
+                    By John - 5 Comments
                   </p>
-                </Flex>
+                  <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
+                    <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
+                    <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
+                      Read more
+                    </p>
+                  </Flex>
+                </div>
               </div>
             </div>
-          </div>
+
+            <div className="mt-[52px]">
+              <div className="w-[370px]">
+                <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
+                <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
+                  <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[230px] ">
+                    Online Reputation And Management
+                  </h3>
+                  <p className="text-[18px] font-nuni text-[#474747] pt-4">
+                    By Amin - 10 Comments
+                  </p>
+                  <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
+                    <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
+                    <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
+                      Read more
+                    </p>
+                  </Flex>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-[52px]">
+              <div className="w-[370px]">
+                <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
+                <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
+                  <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[250px] ">
+                    Tips To Move Your Project More Forward
+                  </h3>
+                  <p className="text-[18px] font-nuni text-[#474747] pt-4">
+                    By Insider - 15 Comments
+                  </p>
+                  <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
+                    <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
+                    <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
+                      Read more
+                    </p>
+                  </Flex>
+                </div>
+              </div>
+            </div>
+          </Flex>
         </div>
       </Container>
     </div>

@@ -2,6 +2,7 @@ import Container from "../Container";
 import Image from "../Image";
 import bannerLogo from "../../assets/bannerLogo.png";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -18,7 +19,9 @@ const Banner = () => {
             convert. Digital marketing’s development has changed the way brands
             and businesses use technology for marketing.
           </p>
-          <Button className={"font-bold mt-7.5"} btnText={"Get Free Quoto"} />
+          <Link to={"/benifit"}>
+            <Button className={"font-bold mt-7.5"} btnText={"Get Free Quoto"} />
+          </Link>
         </div>
       </Container>
     </div>

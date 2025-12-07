@@ -10,7 +10,7 @@ const Service = () => {
   return (
     <div className="pt-1">
       <Container>
-        <div className={"my-25"}>
+        <div className={"pt-25"}>
           <div className="">
             <Image imgSrc={bannerLogo} className={"w-25 mx-auto"} />
             <h1 className="text-[48px] font-openSan font-extrabold text-[#192239] text-center ">

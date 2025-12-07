@@ -14,7 +14,7 @@ const Header = () => {
           <Flex className="justify-between">
             <div className="">
               <Link to={"/"}>
-                <Image imgSrc={logo} className={'cursor-pointer'} />
+                <Image imgSrc={logo} className={"cursor-pointer"} />
               </Link>
             </div>
             <div className="">
