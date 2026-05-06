@@ -7,13 +7,12 @@ import aboutLogo from "../../assets/aboutLogo.png";
 
 const About = () => {
   return (
-    <>
-      <Container className={"pt-1 "}>
-        <Flex className="pt-25">
+    <section>
+      <Container className={"pt-15"}>
+        <Flex>
           <div className="w-[60%]">
             <Image imgSrc={about} />
           </div>
-
           <div className="w-[40%]">
             <Image imgSrc={bannerLogo} />
             <h1 className="text-[48px] font-openSan font-extrabold text-[#192239] ">
@@ -32,7 +31,7 @@ const About = () => {
           </div>
         </Flex>
       </Container>
-    </>
+    </section>
   );
 };
 

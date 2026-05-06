@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
-    <>
+    <section>
       <Image imgSrc={errorImg} className={"m-auto pt-20"} />
       <div className="text-center pt-5">
         <Link to={"/"}>
           <Button btnText={"Get Back"} className={"font-semibold text-xl"} />
         </Link>
       </div>
-    </>
+    </section>
   );
 };
 

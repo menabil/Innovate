@@ -6,7 +6,7 @@ import Flex from "../Flex";
 
 const Review = () => {
   return (
-    <Container className={"pt-25"}>
+    <Container className={"pt-15"}>
       <Flex className={"gap-x-6"}>
         <div className="w-[40%]">
           <Image imgSrc={bannerLogo} />

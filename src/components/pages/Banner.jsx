@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="bg-[url('/src/assets/Banner.png')] py-[450px] bg-no-repeat bg-cover bg-center">
+    <section className="bg-[url('/src/assets/Banner.png')] py-[450px] bg-no-repeat bg-cover bg-center">
       <Container>
         <div className="mt-[150px] absolute top-[50px]">
           <Image imgSrc={bannerLogo} />
@@ -24,7 +24,7 @@ const Banner = () => {
           </Link>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

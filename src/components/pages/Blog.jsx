@@ -5,84 +5,79 @@ import Flex from "../Flex";
 
 const Blog = () => {
   return (
-    <div className="pt-1">
+    <section className="pt-15">
       <Container>
-        <div className={"pt-25"}>
-          <div>
-            <Image imgSrc={bannerLogo} className={"w-25 mx-auto"} />
-            <h1 className="text-[48px] font-openSan font-extrabold text-[#192239] text-center ">
-              Our Latest Blog
-            </h1>
-            <p className="text-[18px] font-papi leading-8 text-[#6C7D93] pt-[15px] w-[500px] text-center mx-auto">
-              We provide digital experience services to startups and small
-              businesses.
-            </p>
+        <header>
+          <Image imgSrc={bannerLogo} className={"w-25 mx-auto"} />
+          <h1 className="text-[48px] font-openSan font-extrabold text-[#192239] text-center ">
+            Our Latest Blog
+          </h1>
+          <p className="text-[18px] font-papi leading-8 text-[#6C7D93] pt-[15px] w-[500px] text-center mx-auto">
+            We provide digital experience services to startups and small
+            businesses.
+          </p>
+        </header>
+        <Flex className={"justify-between"}>
+          <div className="mt-[52px]">
+            <div className="w-[370px]">
+              <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
+              <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
+                <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[200px] ">
+                  How to Be Ahead of Stock Changes
+                </h3>
+                <p className="text-[18px] font-nuni text-[#474747] pt-4">
+                  By John - 5 Comments
+                </p>
+                <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
+                  <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
+                  <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
+                    Read more
+                  </p>
+                </Flex>
+              </div>
+            </div>
           </div>
-
-          <Flex className={"justify-between"}>
-            <div className="mt-[52px]">
-              <div className="w-[370px]">
-                <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
-                <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
-                  <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[200px] ">
-                    How to Be Ahead of Stock Changes
-                  </h3>
-                  <p className="text-[18px] font-nuni text-[#474747] pt-4">
-                    By John - 5 Comments
+          <div className="mt-[52px]">
+            <div className="w-[370px]">
+              <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
+              <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
+                <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[230px] ">
+                  Online Reputation And Management
+                </h3>
+                <p className="text-[18px] font-nuni text-[#474747] pt-4">
+                  By Amin - 10 Comments
+                </p>
+                <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
+                  <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
+                  <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
+                    Read more
                   </p>
-                  <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
-                    <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
-                    <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
-                      Read more
-                    </p>
-                  </Flex>
-                </div>
+                </Flex>
               </div>
             </div>
-
-            <div className="mt-[52px]">
-              <div className="w-[370px]">
-                <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
-                <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
-                  <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[230px] ">
-                    Online Reputation And Management
-                  </h3>
-                  <p className="text-[18px] font-nuni text-[#474747] pt-4">
-                    By Amin - 10 Comments
+          </div>
+          <div className="mt-[52px]">
+            <div className="w-[370px]">
+              <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
+              <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
+                <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[250px] ">
+                  Tips To Move Your Project More Forward
+                </h3>
+                <p className="text-[18px] font-nuni text-[#474747] pt-4">
+                  By Insider - 15 Comments
+                </p>
+                <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
+                  <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
+                  <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
+                    Read more
                   </p>
-                  <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
-                    <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
-                    <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
-                      Read more
-                    </p>
-                  </Flex>
-                </div>
+                </Flex>
               </div>
             </div>
-
-            <div className="mt-[52px]">
-              <div className="w-[370px]">
-                <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
-                <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">
-                  <h3 className="text-[24px] font-openSan font-medium text-[#413F45] pt-5 w-[250px] ">
-                    Tips To Move Your Project More Forward
-                  </h3>
-                  <p className="text-[18px] font-nuni text-[#474747] pt-4">
-                    By Insider - 15 Comments
-                  </p>
-                  <Flex className={"cursor-pointer w-35 pt-5 pb-3"}>
-                    <div className="p-4.5 bg-[#ffba94] rounded-[50%] -mr-5 -mb-4"></div>
-                    <p className="text-[18px] font-openSan font-bold text-[#202427] pt-5">
-                      Read more
-                    </p>
-                  </Flex>
-                </div>
-              </div>
-            </div>
-          </Flex>
-        </div>
+          </div>
+        </Flex>
       </Container>
-    </div>
+    </section>
   );
 };
 
