@@ -12,21 +12,21 @@ const Service = () => {
       <Container>
         <header>
           <Image imgSrc={bannerLogo} className={"w-25 mx-auto"} />
-          <h1 className="text-[48px] font-openSan font-extrabold text-[#192239] text-center ">
+          <h1 className="md:text-5xl text-4xl font-openSan font-extrabold text-[#192239] text-center ">
             Our Services
           </h1>
-          <p className="text-[18px] font-papi leading-8 text-[#6C7D93] pt-[15px] w-[300px] text-center mx-auto">
+          <p className="text-[18px] font-papi leading-8 text-[#6C7D93] pt-[15px] md:w-[300px] w-[280px] text-center mx-auto">
             We have been providing great flooring solutions service.
           </p>
         </header>
-        <div className="mt-[25px]">
-          <Flex className={"justify-between gap-x-7"}>
-            <div className="px-12 py-[52px] bg-[#EBF7E9] rounded-[20px] text-center">
+        <div className="mt-6">
+          <Flex className={"justify-between gap-7 md:flex-row flex-col"}>
+            <div className="md:px-12 px-5 py-10 md:py-13 bg-[#EBF7E9] rounded-[20px] text-center">
               <Image imgSrc={serviceOne} className={"w-15 mx-auto"} />
-              <h3 className="text-[30px] font-openSan font-semibold text-[#202427] pt-[30px] ">
+              <h3 className="md:text-3xl text-2xl font-openSan font-semibold text-[#202427] pt-[30px] ">
                 Marketing strategy
               </h3>
-              <p className="text-[18px] font-papi leading-[30px] text-[#6C7D93] pt-5 w-[280px] mx-auto">
+              <p className="text-[18px] font-papi leading-[30px] text-[#6C7D93] pt-5 md:w-[280px] w-[250px] mx-auto">
                 Social Media has changed the way we interact & do business while
                 creating
               </p>
@@ -37,12 +37,12 @@ const Service = () => {
                 </p>
               </Flex>
             </div>
-            <div className="px-12 py-[52px] bg-[#D8EAFF] rounded-[20px] text-center">
+            <div className="md:px-12 px-5 py-10 md:py-13 bg-[#D8EAFF] rounded-[20px] text-center">
               <Image imgSrc={serviceTwo} className={"w-15 mx-auto"} />
-              <h3 className="text-[30px] font-openSan font-semibold text-[#202427] pt-[30px] ">
+              <h3 className="md:text-3xl text-2xl font-openSan font-semibold text-[#202427] pt-[30px] ">
                 Social Marketing
               </h3>
-              <p className="text-[18px] font-papi leading-[30px] text-[#6C7D93] pt-5 w-[280px] mx-auto">
+              <p className="text-[18px] font-papi leading-[30px] text-[#6C7D93] pt-5  md:w-[280px] w-[250px] mx-auto">
                 Social Media has changed the way we interact & do business while
                 creating
               </p>
@@ -53,12 +53,12 @@ const Service = () => {
                 </p>
               </Flex>
             </div>
-            <div className="px-12 py-[52px] bg-[#FBF1EC] rounded-[20px] text-center">
+            <div className="md:px-12 px-5 py-10 md:py-13 bg-[#FBF1EC] rounded-[20px] text-center">
               <Image imgSrc={serviceThree} className={"w-15 mx-auto"} />
-              <h3 className="text-[30px] font-openSan font-semibold text-[#202427] pt-[30px] ">
+              <h3 className="md:text-3xl text-2xl font-openSan font-semibold text-[#202427] pt-[30px] ">
                 Content Marketing
               </h3>
-              <p className="text-[18px] font-papi leading-[30px] text-[#6C7D93] pt-5 w-[280px] mx-auto">
+              <p className="text-[18px] font-papi leading-[30px] text-[#6C7D93] pt-5  md:w-[280px] w-[250px] mx-auto">
                 Social Media has changed the way we interact & do business while
                 creating
               </p>
