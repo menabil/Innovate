@@ -8,7 +8,7 @@ const Blog = () => {
     <section className="pt-15">
       <Container>
         <header>
-          <Image imgSrc={bannerLogo} className={"w-25 mx-auto"} />
+          <Image imgSrc={bannerLogo} className={"w-25 mx-auto mb-4"} />
           <h1 className="md:text-5xl text-4xl font-openSan font-extrabold text-[#192239] text-center ">
             Our Latest Blog
           </h1>
@@ -17,7 +17,11 @@ const Blog = () => {
             businesses.
           </p>
         </header>
-        <Flex className={"justify-between md:flex-row flex-col md:mt-8 mt-4 gap-y-5"}>
+        <Flex
+          className={
+            "justify-between md:flex-row flex-col md:mt-8 mt-4 gap-y-5"
+          }
+        >
           <div className="md:w-[370px] w-[290px]">
             <div className="p-30 bg-[#C4C4C4] rounded-tl-[20px] rounded-tr-[20px]"></div>
             <div className="px-7 py-4  bg-[#F2F7FD] rounded-bl-[20px] rounded-br-[20px] ">

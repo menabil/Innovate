@@ -11,7 +11,7 @@ const Service = () => {
     <section>
       <Container>
         <header>
-          <Image imgSrc={bannerLogo} className={"w-25 mx-auto"} />
+          <Image imgSrc={bannerLogo} className={"w-25 mx-auto mb-4"} />
           <h1 className="md:text-5xl text-4xl font-openSan font-extrabold text-[#192239] text-center ">
             Our Services
           </h1>

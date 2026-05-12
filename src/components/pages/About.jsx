@@ -14,7 +14,10 @@ const About = () => {
             <Image imgSrc={about} className={"w-70 md:w-fit"} />
           </div>
           <div className="md:w-[40%]">
-            <Image imgSrc={bannerLogo} className={"mx-auto md:mx-0 w-25"} />
+            <Image
+              imgSrc={bannerLogo}
+              className={"mx-auto md:mx-0 w-25 mb-4"}
+            />
             <h1 className="md:text-5xl text-4xl font-openSan font-extrabold text-[#192239] text-center md:text-left">
               Who We Are
             </h1>
