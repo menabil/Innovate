@@ -6,23 +6,24 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="pt-[140px] pb-[60px]">
+    <footer className="md:pt-[140px] md:pb-[60px] pt-15 pb-10">
       <Container>
         <Flex className={"items-start"}>
-          <div className="w-[45%]">
-            <div className="">
-              <Link to={"/"}>
-                <Image imgSrc={logo} className={"cursor-pointer"} />
-              </Link>
-              <p className="font-nuni text-[#6C7D93] text-[18px] leading-[180%] pt-[50px] w-[430px]">
-                Install any demo or template with a single click. You can mix
-                and match all the demos & templates. Every demo can be turned
-                into one or multi-page.
-              </p>
-            </div>
+          <div className="md:w-[45%] w-full">
+            <Link to={"/"}>
+              <Image
+                imgSrc={logo}
+                className={"cursor-pointer mx-auto md:mx-0"}
+              />
+            </Link>
+            <p className="font-nuni text-[#6C7D93] text-[18px] leading-[180%] md:pt-[50px] pt-7 md:w-[430px] text-center w-[260px] mx-auto md:mx-0">
+              Install any demo or template with a single click. You can mix and
+              match all the demos & templates. Every demo can be turned into one
+              or multi-page.
+            </p>
           </div>
 
-          <div className="w-[55%] flex justify-between ">
+          <div className="w-[55%] md:flex justify-between hidden">
             <div className="">
               <h3 className="font-openSan text-2xl font-semibold text-[#413F45] pb-12">
                 Features
@@ -98,14 +99,14 @@ const Footer = () => {
           </div>
         </Flex>
 
-        <div className="flex justify-between pt-20">
-          <div className="w-[70%]">
+        <div className="flex justify-between md:pt-20 pt-10 md:flex-row flex-col">
+          <div className="md:w-[70%] w-full text-center md:text-left">
             <p className="font-nuni text-[18px] text-[#6C7D93]">
-              @2025 Innovate.All rights reserved.
+              @2026 Innovate.All rights reserved.
             </p>
           </div>
 
-          <div className="w-[30%] flex justify-between">
+          <div className="w-[30%] md:flex justify-between hidden">
             <div className="pl-9">
               <p className="font-nuni text-[18px] text-[#6C7D93]">
                 Privacy policy
@@ -119,7 +120,7 @@ const Footer = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </footer>
   );
 };
 
