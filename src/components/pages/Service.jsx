@@ -8,14 +8,14 @@ import Flex from "../Flex";
 
 const Service = () => {
   return (
-    <section>
+    <section className="pt-15">
       <Container>
         <header>
           <Image imgSrc={bannerLogo} className={"w-25 mx-auto mb-4"} />
           <h1 className="md:text-5xl text-4xl font-openSan font-extrabold text-[#192239] text-center ">
             Our Services
           </h1>
-          <p className="text-[18px] font-papi leading-8 text-[#6C7D93] pt-[15px] md:w-[300px] w-[280px] text-center mx-auto">
+          <p className="md:text-lg text-sm font-papi leading-8 text-[#6C7D93] pt-[15px] md:w-[300px] w-[280px] text-center mx-auto">
             We have been providing great flooring solutions service.
           </p>
         </header>
